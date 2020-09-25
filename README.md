@@ -20,8 +20,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Original Design
 
-[Original Design](http://frontend.turing.io/projects/m1-static-comp-2.html)
-![Original Image](https://cdn.dribbble.com/users/44126/screenshots/1315388/attachments/184703/job-summary.png)
+[Original Design](https://cdn.dribbble.com/users/44126/screenshots/1315388/attachments/184703/job-summary.png)
+
 
 ### Ipad
 
