@@ -8,9 +8,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 - Make sure [Node](https://nodejs.org/en/download/) is installed
 - NPM Install [Parcel](https://parceljs.org/getting_started.html) to setup a live dev server
-  — Git clone project
+- Fork this repository
+  — In your copy of this repository
+  - Git clone the project
 
 — In your terminal run `npm run dev`
+
+- navigate to `http://localhost:1234/` in your browser
+
+- Start coding, On save it will automatically update
 
 ## Original Design
 
