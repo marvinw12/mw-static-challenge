@@ -1,3 +1,73 @@
 body {
   background: #ECF2F6;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+i {
+  margin-right: 8px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 12% 1fr;
+}
+
+.aside {
+  background: #354052;
+}
+
+.aside img {
+  width: 125px;
+  border-radius: 60%;
+  margin: 12px 5px -4px 12px;
+}
+
+.aside__profile {
+  border-bottom: 2px solid #384456;
+}
+
+.aside__profile p {
+  color: #A0ABBF;
+  font-weight: 300;
+  text-align: center;
+}
+
+.aside__section {
+  color: #A0ABBF;
+  border-bottom: 2px solid #384456;
+}
+
+.aside__section ul {
+  list-style-type: none;
+  margin-left: -25px;
+}
+
+.aside__section li {
+  margin: 8px;
+  font-size: 0.75rem;
+}
+
+.aside__section p {
+  color: #617088;
+  margin-left: 25px;
+  font-size: 0.8rem;
+}
+
+.aside__categories {
+  color: #A0ABBF;
+} 
+
+.aside__categories p {
+  color: #617088;
+  margin-left: 25px;
+  font-size: 0.8rem;
+}
+
+.aside__categories input {
+  margin-left: 25px;
+}
+
+.aside__categories label {
+  font-size: 0.8rem;
+  font-weight: 500;
 }

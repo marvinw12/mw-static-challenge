@@ -5,139 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Static Challenge</title>
-    <link rel="stylesheet" href="src/css/reset.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <section class="nav">
-      <div class="nav__profile">
+    <div class="container">
+      <div class="aside">
+        <div class="aside__profile">
+          <img src="foto-sushi-6anudmpILw4-unsplash.jpg" alt="profile-pic">
+          <p>Newton Barley<i class="fa fa-caret-down"></i></p>
+        </div>
+        <div class="aside__section">
+          <p>Main</p>
+          <ul>
+            <li><i class="fa fa-home"></i>HOME</li>
+            <li><i class="fa fa-briefcase"></i>JOBS</li>
+            <li><i class="fa fa-file"></i>RESUMES</li>
+            <li><i class="fa fa-clipboard"></i>TASKS</li>
+            <li><i class="fa fa-calendar"></i>CALENDAR</li>
+          </ul>
+        </div>
+        <div class="aside__section">
+          <p>Admin</p>
+          <ul>
+            <li><i class="fa fa-users"></i>USERS</li>
+            <li><i class="fa fa-map-marker"></i></i>LOCATIONS</li>
+            <li><i class="fa fa-file"></i>WORKFLOW</li>
+            <li><i class="fa fa-sitemap"></i>JOB BOARDS</li>
+            <li><i class="fa fa-share-alt"></i></i>SOCIAL</li>
+          </ul>
+        </div>
+        <div class="aside__categories">
+          <p>Categories</p>
+          <form action="/action_page.php">
+            <input type="checkbox" id="admin" name="admin" value="Administrative">
+            <label for="admin">Administrative</label><br>
+            <input type="checkbox" id="design" name="design" value="Design">
+            <label for="design">Design</label><br>
+            <input type="checkbox" id="exec" name="exec" value="Executive">
+            <label for="vehicle3">Executive</label><br><br>
+          </form>
+        </div>
       </div>
-      <div class="nav__main">
-        <i class="fa fa-home">Home</i>
-        <i class="fa fa-briefcase">Jobs</i>
-        <i class="fa fa-file">Resume</i>
-        <i class="fa fa-clipboard">Tasks</i>
-        <i class="fa fa-calendar">Calendar</i>      
+      <div class="main">
+        <div class="main__nav">
+        </div>
+        <div class="main__img">
+        </div>
+        <div class="main__container">
+          <div class="main__container1">
+          </div>
+          <div class="main_container2">
+          </div>
+        </div>
       </div>
-      <div class="nav__admin">
-        <i class="fa fa-users">Users</i>
-        <i class="fa fa-map-marker">Locations</i>
-        <i class="fa fa-sitemap">Workflow</i>
-        <i class="fa fa-newspaper">Job Boards</i>
-        <i class="fa fa-share-alt">Social</i>
-      </div>
-      <div class="nav__categories">
-        <form>
-          <p>
-            <input type="checkbox" id="admin">
-            <label for="admin">Administration</label>
-          </p>
-          <p>
-            <input type="checkbox" id="design">
-            <label for="design">Design</label>
-          </p>
-          <p>
-            <input type="checkbox" id="exec">
-            <label for="exec">Executive</label>
-          </p>
-          <p>
-            <input type="checkbox" id="hr">
-            <label for="hr">Human Resource</label>
-          </p>
-        </form>
-      </div>
-    </section>
-    <section class="menu">
-      <div class="menu__search">
-        <i class="fa fa-bars"></i>
-        <input type="search" placeholder=" Search for a job, task, or resume">
-        <i class="fa fa-user-plus"></i>
-        <i class="fa fa-list"></i>
-        <i class="fas fa-grip"></i>
-      </div>
-      <div class="menu__title">
-        <h2>Customer Service Representative</h2>
-        <i class="fa fa-map-marker-alt">San Francisco, CA</i>
-        <p>Open</p>
-      </div>
-      <div class="menu__btn">
-        <i class="fa fa-bookmark"></i>
-        <i class="fa fa-pencil"></i>
-        <i class="fa fa-trash"></i>
-      </div>
-      <div class="menu__nav">
-        <nav>
-          <ul>Summary</ul>
-          <ul>Applicants</ul>
-          <ul>Applicants</ul>
-          <ul>Job Board</ul>
-          <ul>Interviews</ul>
-          <ul>Activity</ul>
-          <ul>Broadcast</ul>
-          <ul>Notification</ul>
-        </nav>
-      </div>
-    </section>
-    <section class="body">
-      <div class="body__jobTable">
-        <table>
-          <tr>
-            <th>Job Description</th>
-            <button><i class="fa fa-pencil"></i>Edit</button>
-          </tr>
-          <tr>
-            <td>Position Title</td>
-            <td>Customer Service Representative</td>
-          </tr>
-          <tr>
-            <td>Location</td>
-            <td>San Francisco, CA</td>
-          </tr>
-          <tr>
-            <td>Employment Type</td>
-            <td>Full-time</td>
-          </tr>
-          <tr>
-            <td>Experience</td>
-            <td>Mid-level</td>
-          </tr>
-          <tr>
-            <td>Status</td>
-            <td>Open</td>
-          </tr>
-          <tr>
-            <td>Description</td>
-            <td>The CSR is responsible for interaction with and providing 
-                quality assistance to all radical customers, responsible for 
-                keeping up to date
-            </td>
-          </tr>
-          <tr>
-            <td>Hiring Lead</td>
-            <td>Tom Tizzy</td>
-          </tr>
-          <tr>
-            <td>Approved Salary</td>
-            <td>$58,000</td>
-          </tr>
-        </table>
-      </div>
-      <div class="body__links">
-        <a href="#" class="fa fa-facebook">Post to Facebook</a>
-        <a href="#" class="fa fa-twitter">Tweet this Job</a>
-        <a href="#" class="fa fa-linkedin">Post to Linkedin</a>
-        <i class="fa fa-globe">Link to this Job</i>
-        <p>Lorem ipsum dolor sit amet, consectetur</p>
-        <input type="search" placeholder="http://loremipsum.dol">
-        <i class="fa fa-window">Use the Button Widget</i>
-        <p>This widget embeds the buttons for sharing the job for submitting 
-           a resume on your website</p>
-           <input type="search" placeholder="<script = 'type'/javascript>">
-        <i class="paper-plane">Upload Resumes by Email</i>  
-        <p>You can automatically upload multiple resumes to this job by emailing the address below</p>
-        <input type="search" placeholder="marvin12@gmail.com">
-      </div>
-    </section>
+    </div>
   </body>
 </html>
