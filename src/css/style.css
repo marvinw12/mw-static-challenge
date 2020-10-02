@@ -71,3 +71,32 @@ i {
   font-size: 0.8rem;
   font-weight: 500;
 }
+
+.main__nav {
+  background: white;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  color: #617088;
+}
+
+.main__nav input {
+  border: solid 1px #A0ABBF;
+  padding: 5px;
+  flex-grow: 1;
+  margin-left: -10px;
+}
+
+.main__nav i {
+  border: solid 1px #A0ABBF;
+  padding: 15px;
+}
+
+.fa-calendar {
+  margin-left: -9px;
+}
+
+.fa-th {
+  color: #617088;
+  margin-left: -9px;
+}
