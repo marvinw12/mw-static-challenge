@@ -17,9 +17,10 @@ i {
 }
 
 .aside img {
-  width: 125px;
+  width: 90px;
+  height: 90px;
   border-radius: 60%;
-  margin: 12px 5px -4px 12px;
+  margin: 10px 30px -15px;
 }
 
 .aside__profile {
@@ -30,6 +31,11 @@ i {
   color: #A0ABBF;
   font-weight: 300;
   text-align: center;
+}
+
+.fa-caret-down {
+  margin-left: 5px;
+  width: 1px;
 }
 
 .aside__section {
@@ -53,23 +59,20 @@ i {
   font-size: 0.8rem;
 }
 
-.aside__categories {
-  color: #A0ABBF;
-} 
-
-.aside__categories p {
-  color: #617088;
-  margin-left: 25px;
-  font-size: 0.8rem;
+.aside__section #square1 {
+  color: #FFD507;
 }
 
-.aside__categories input {
-  margin-left: 25px;
+.aside__section #square2 {
+  color: #2AAFFF;
 }
 
-.aside__categories label {
-  font-size: 0.8rem;
-  font-weight: 500;
+.aside__section #square3 {
+  color: #E81A60;
+}
+
+.aside__section #square4 {
+  color: #00AA8A;
 }
 
 .main__nav {
@@ -92,11 +95,73 @@ i {
   padding: 15px;
 }
 
-.fa-calendar {
+.main .fa-calendar {
   margin-left: -9px;
 }
 
 .fa-th {
   color: #617088;
   margin-left: -9px;
+}
+
+.main__title {
+  padding: 40px;
+}
+
+.main__title__text {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.blue {
+  color: #2AAFFF
+}
+
+.fa-circle {
+  margin-right: 25px;
+  color: #A0ABBF;
+}
+
+#smallcircle {
+  font-size: 5px;
+  margin-left: 25px;
+}
+
+.main__title__btns {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin-top: -45px;
+}
+
+.main__title__btns p {
+  border: 1px solid #A0ABBF;
+  border-radius: 25px;
+  padding: 2px;
+  width: 75px;
+  color: #6F7B8B;
+  margin-top: 4px;
+  margin-right: 3px;
+  text-align: center;
+}
+
+.main__title__btns i {
+  border: 1px solid #A0ABBF;
+  border-radius: 50%;
+}
+
+.main__title__btns .fa-circle {
+  margin-right: 5px;
+  color: #8CC63E;
+  border: none;
+}
+
+.main__title__btns .icons {
+  margin-left: 8px;
+  margin-top: -3px;
+}
+
+.main__title__btns .icons i {
+  padding: 12px;
 }
