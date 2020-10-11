@@ -41,6 +41,7 @@ i {
 .aside__section {
   color: #A0ABBF;
   border-bottom: 2px solid #384456;
+  height: 25vh;
 }
 
 .aside__section ul {
@@ -108,24 +109,22 @@ i {
   padding: 40px;
 }
 
-.main__title__text {
+.main__title__text  {
   display: flex;
   justify-content: flex-start;
 }
 
-
 .blue {
-  color: #2AAFFF
-}
-
-.fa-circle {
-  margin-right: 25px;
-  color: #A0ABBF;
+  color: #2AAFFF;
 }
 
 #smallcircle {
   font-size: 5px;
-  margin-left: 25px;
+  color: #A0ABBF;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  bottom: 3px;
 }
 
 .main__title__btns {
@@ -164,4 +163,38 @@ i {
 
 .main__title__btns .icons i {
   padding: 12px;
+}
+
+
+.main__title__text__nav {
+  display: flex;
+}
+
+.main__title__text__nav li {
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-right: 45px;
+  text-transform: capitalize;
+}
+
+.img-container {
+  display: grid;  
+  grid-template-columns: 50% 50%;
+  margin-right: 100 px;
+}
+
+.image #smaller {
+  width: 500px;
+  margin-bottom: 25.5px;
+}
+
+.image p {
+  border: 1px solid #A0ABBF;
+  border-radius: 25px;
+  background: white;
+  text-align: center;
+  width: 200px;
+  margin-left: 150px;
+  padding: 5px;
 }
